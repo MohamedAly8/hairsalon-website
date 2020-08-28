@@ -1,0 +1,627 @@
+
+<!doctype html>
+<html>
+  <head>
+
+  {% load static %}
+  <link rel="icon" href="{% static 'hairsalon/images/favicon.ico' %}">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aya's Hair Salon</title>
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="{% static 'hairsalon/css/master.css' %}">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+
+
+  </head>
+  <body>
+  <div id="overlay"></div>
+  <div id="mobile-menu">
+    <ul>
+      <li class="page-scroll"><a href="#aya">Meet Aya</a></li>
+      <li class="page-scroll"><a href="#gallery">Portfolio</a></li>
+      <li class="page-scroll"><a href="#qualifications">Qualifications</a></li>
+      <li class="page-scroll"><a href="#services">Services</a></li>
+      <li class="page-scroll"><a href="#promotions">Promotions</a></li>
+      <li class="page-scroll"><a href="#video">Video</a></li>
+      <li class="page-scroll"><a href="#contact">Contact</a></li>
+
+    </ul>
+  </div>
+  <div id="page">
+    <header id="pagetop">
+      <nav>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="logo page-scroll"><a href="#pagetop"><img src="{% static 'hairsalon/images/newlogo8.png' %}" alt="logo"></a></div>
+              <div class="mm-toggle-wrap">
+                <div class="mm-toggle"> <i class="icon-menu"><img src="{% static 'hairsalon/images/menu-icon.png' %}" alt="Menu"></i></div>
+              </div>
+              <ul class="menu">
+                <li class="page-scroll"><a href="#gallery">Portfolio</a></li>
+                <li class="page-scroll"><a href="#aya">Meet Aya</a></li>
+                <li class="page-scroll"><a href="#qualifications">Qualifications</a></li>
+                <li class="page-scroll"><a href="#services">Services</a></li>
+                <li class="page-scroll"><a href="#promotions">Promotions</a></li>
+                <li class="page-scroll"><a href="#video">Video</a></li>
+                </li>
+                <li class="page-scroll"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </nav>
+    </header>
+
+  <div class="sliderfull">
+    <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classicslider1" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+      <!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
+      <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
+        <ul>
+          <!-- SLIDE  -->
+          <li data-index="rs-16" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+            <!-- MAIN IMAGE -->
+            <img src="{% static 'hairsalon/images/slider3.jpeg' %}"  alt="slider"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+          </li>
+          <!-- SLIDE  -->
+          <li data-index="rs-17" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+            <!-- MAIN IMAGE -->
+            <img src="{% static 'hairsalon/images/main2.png' %}"  alt="slider"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+
+          </li>
+          <li data-index="rs-18" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+            <!-- MAIN IMAGE -->
+            <img src="{% static 'hairsalon/images/slider5.jpeg' %}"  alt="slider"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+          </li>
+        </ul>
+        <div class="tp-static-layers"></div>
+        <div class="tp-bannertimer" style="height: 7px; background-color: rgba(255, 255, 255, 0.25);"></div>
+      </div>
+    </div>
+  </div>
+  <section class="slider-titile">
+      <div class="container">
+       <div class="row">
+       <div class="col-lg-11 pull-right">
+         <div class="sliderarrow">
+        	<a class="left rev-leftarrow">Left</a>
+          <a class="right rev-rightarrow">Right</a>
+        </div>
+        <div class="titile-bg">
+          <h1>Aya Hair Salon</h1>
+        </div>
+        <div class="white-bg">
+         <p> Aya's Hair Salon is a local small business run by Aya Suleiman. She is an experienced hairstylist who holds many certifications and qualifications in hairstyling. Aya's creativity and flexibility is what sets her out of the crowd as she is able to deliver exaclty what the client wants</p>
+         <br>
+         <p> Aya accomodates the needs of women who wear the hijab. All of Aya's sessions will be in a private room with only her and the clients.</p>
+       </div>
+       </div>
+       </div>
+      </div>
+
+
+    <section id="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Proud portfolio</h2>
+          </div>
+          <div class="col-lg-12 filter">
+            <ul>
+              <li><a href="#" data-filter="*" class="active">All</a></li>
+              <li><a href="#" data-filter=".Wcut">Cutting</a></li>
+              <li><a href="#" data-filter=".coloring">Coloring</a></li>
+              <li><a href="#" data-filter=".Hspa">Conditioning</a></li>
+              <li><a href="#" data-filter=".Bspa">Styling</a></li>
+              <li><a href="#" data-filter=".manucuring">Manicuring</a></li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+          <div class="portfoliodiv">
+            <div class="col-25 .Bspa .Wcut"> <a class="fancybox" href="images/gallery/large/280x375.png" data-fancybox-group="gallery">
+              <div class="hover">
+              <img src="{% static 'hairsalon/images/main2.png' %}" alt="Portfolio"/>
+
+              </div>
+              </a>
+            </div>
+            <div class="col-25 Wcut Bspa coloring"> <a class="fancybox" href="images/gallery/large/280x375.png" data-fancybox-group="gallery">
+              <div class="hover">
+              <img src="{% static 'hairsalon/images/main3.jpg' %}" alt="Portfolio"/>
+
+              </div>
+              </a> </div>
+            <div class="col-25 coloring Bspa "> <a class="fancybox" href="images/gallery/large/280x375.png" data-fancybox-group="gallery">
+              <div class="hover">
+              <img src="{% static 'hairsalon/images/slider1.jpeg' %}" alt="Portfolio"/>
+
+              </div>
+              </a> </div>
+            <div class="col-25 Wcut Bspa coloring"> <a class="fancybox" href="images/gallery/large/280x375.png" data-fancybox-group="gallery">
+              <div class="hover">
+              <img src="{% static 'hairsalon/images/slider2.jpeg' %}" alt="Portfolio"/>
+
+              </div>
+              </a> </div>
+            <div class="col-25 coloring Bspa"> <a class="fancybox" href="images/gallery/large/280x375.png" data-fancybox-group="gallery">
+              <div class="hover">
+              <img src="{% static 'hairsalon/images/color1.jpg' %}" alt="Portfolio"/>
+
+              </div>
+              </a> </div>
+            <div class="col-25 Wcut coloring Bspa"> <a class="fancybox" href="images/gallery/large/280x375.png" data-fancybox-group="gallery">
+              <div class="hover">
+              <img src="{% static 'hairsalon/images/slider4.jpg' %}" alt="Portfolio"/>
+
+              </div>
+              </a> </div>
+            <div class="col-25 Bspa"> <a class="fancybox" href="images/gallery/large/280x375.png" data-fancybox-group="gallery">
+              <div class="hover">
+              <img src="{% static 'hairsalon/images/slider5.jpeg' %}" alt="Portfolio"/>
+
+              </div>
+              </a> </div>
+            <div class="col-25 Wcut"> <a class="fancybox" href="images/gallery/large/280x375.png" data-fancybox-group="gallery">
+              <div class="hover">
+              <img src="{% static 'hairsalon/images/cut1.jpg' %}" alt="Portfolio"/>
+
+              </div>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+    <section id="aya" class="col-padtop wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <h1 align='center'>Hi, I'm Aya</h1>
+          <div class="col-sm-6 col-md-6 col-lg-6 col-padright-none wow fadeInLeft"><img src="{% static 'hairsalon/images/aya2.png' %}" alt="Saloon" /></div>
+          <div class="col-sm-6 col-md-6 col-lg-6 col-padleft-none wow fadeInRight"><img src="{% static 'hairsalon/images/aya5.png' %}" alt="Saloon" /></div>
+        </div>
+      </div>
+    </section>
+    <br><br><br>
+    <section id="qualifications" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <br><br><br>
+            <h2>Education & <br> Certificates</h2>
+            <div class="ourteamd">
+              <p>Aya is a professional hairdresser that currently attends Toronto Aesthetics and Hair Academy. She was involved in training on infections and also how to work during the Covid-19 pandemic. Aya will make sure to provide you with the best service while making sure that you are safe from any infections and while maintaining social distancing.</p>
+            </div>
+          </div>
+          <br><br><br><br>
+          <div class="col-sm-12 col-md-8 col-lg-8">
+            <div class="responsive">
+              <div>
+                <div class="third-effect">
+                	<img src="{% static 'hairsalon/images/college.png' %}" class="img-responsive" alt="Our Team">
+
+                </div>
+                <div class="team">
+                  <h3>Hairstyling Diploma</h3>
+                  <p> Currently attending Toronto Aesthetics and Hair Academy for Hairstyling</p>
+                </div>
+              </div>
+              <div>
+                 <div class="third-effect">
+                	<img src="{% static 'hairsalon/images/360training.png' %}" class="img-responsive" alt="Our Team">
+
+                </div>
+                <div class="team">
+                  <h3>COVID-19 AWARENESS</h3>
+                  <p>Granted by 360 Training.</p>
+                </div>
+              </div>
+              <div>
+                <div class="third-effect">
+                  <img src="{% static 'hairsalon/images/infectioncontrol.png' %}" class="img-responsive" alt="Our Team">
+
+                </div>
+                <div class="team">
+                  <h3>INFECTION CONTROL</h3>
+                  <p>Granted by Toronto Aesthetics Hair and Academy.</p>
+                </div>
+              </div>
+              <div>
+                 <div class="third-effect">
+                	<img src="{% static 'hairsalon/images/infectionprevention.png' %}" class="img-responsive" alt="Our Team">
+
+                </div>
+                <div class="team">
+                  <h3>Infection Prevention Training</h3>
+                  <p>Granted by REJUVENATE Salon and Spa Disinfectants</p>
+                </div>
+              </div>
+              <div>
+                <div class="third-effect">
+                	<img src="{% static 'hairsalon/images/barbicide.png' %}" class="img-responsive" alt="Our Team">
+
+                </div>
+
+                <div class="team">
+                  <h3>BARBICIDE</h3>
+                  <p>Covid-19 Training by King Research Inc.</p>
+                </div>
+              </div>
+              <div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </section>
+    <section id="appoinment" class="col-padtop wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="appoimentbg">
+              <div align="center">
+                <h2>CALL US NOW</h2>
+                <br>
+                <hr>
+                <h2>Phone: (437)989-7880</h2>
+                <h2>Email: <a href="mailto:info.ayasalon.ca">info.ayasalon.ca</a></h2>
+              </div>
+
+  			</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br><br><br>
+    <section id="services" class="col-padtop">
+
+      <div class="container">
+        <div class="row marbottom">
+          <div class="col-sm-12 col-md-7 col-lg-5 pull-left wow fadeInUp">
+            <br><br>
+            <h2 align-left>Our Services</h2>
+            <p class="pull-right">Prices vary depending on hair length and condition. <a href='#contact'>Click here to Inquire about Pricing</a></p>
+            <br>
+          </div>
+        </div>
+        <div class="row marbottom wow fadeInUp">
+          <div class="col-sm-12 col-md-7 col-lg-7 col-padright-none">
+            <div class="subtitle">
+              <h2 class="titile col-xs-offset-1 col-sm-offset-0 col-md-offset-1 ">CUTTING</h2>
+            </div>
+            <img src="{% static 'hairsalon/images/cut1.jpg' %}" class="img-responsive" alt="cutting">
+           </div>
+          <div class="col-sm-12 col-md-5 col-lg-5 col-padleft-none">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>CUT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Stylist</td>
+
+                </tr>
+                <tr>
+                  <td>Senior Stylist</td>
+                </tr>
+                <tr>
+                  <td>Master Stylist</td>
+                </tr>
+                <tr>
+                  <td>Celebrity Stylist</td>
+                </tr>
+                <tr>
+                  <td>Cut</td>
+                </tr>
+                <tr>
+                  <td>Cut</td>
+                </tr>
+                <tr>
+                  <td>Cut</td>
+
+                </tr>
+                <tr>
+                  <td>Cut</td>
+
+                </tr>
+                <tr>
+                  <td>Cut</td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row marbottom wow fadeInUp">
+          <div class="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayhide">
+            <div class="subtitle">
+              <h2 class="titile col-xs-offset-2">COLOUR</h2>
+            </div>
+            <div class="subtitle">
+              <h2 class="color">COLOUR</h2>
+            </div>
+            <img src="http://www.placehold.it/684x394" class="img-responsive" alt="Colour"> </div>
+          <div class="col-sm-12 col-sm-5 col-sm-5 col-padright-none">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>COLOUR</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="bigw">Permanent, Demi Gloss</td>
+                </tr>
+                <tr>
+                  <td>Colour Correction</td>
+                </tr>
+                <tr>
+                  <td>Fashion Foiling</td>
+                </tr>
+                <tr>
+                  <td>Tint roots</td>
+                </tr>
+                <tr>
+                  <td>Tint and foils</td>
+                </tr>
+                <tr>
+                  <td>Half Head - Short</td>
+                </tr>
+                <tr>
+                  <td>Half Head - Long</td>
+                </tr>
+                <tr>
+                  <td>Full Head - Short</td>
+                </tr>
+                <tr>
+                  <td>Full Head - Long</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayvisible">
+            <div class="subtitle">
+              <h2 class="titile col-xs-offset-2">COLOUR</h2>
+            </div>
+            <img src="{% static 'hairsalon/images/color1.jpg' %}" class="img-responsive" alt="Colour"> </div>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-sm-12 col-md-7 col-lg-7 col-padright-none">
+            <div class="subtitle">
+              <h2 class="titile col-xs-offset-1">STYLE</h2>
+            </div>
+            <img src="{% static 'hairsalon/images/slider3.jpeg' %}" class="img-responsive" alt="Style"> </div>
+          <div class="col-sm-12 col-md-5 col-lg-5 col-padleft-none">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>STYLE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Blowdrying - Short</td>
+                </tr>
+                <tr>
+                  <td>Blowdrying - Medium</td>
+                </tr>
+                <tr>
+                  <td>Blowdrying - Long</td>
+                </tr>
+                <tr>
+                  <td>Formals</td>
+                </tr>
+                <tr>
+                  <td>Bride</td>
+                </tr>
+                <tr>
+                  <td>Style</td>
+                </tr>
+                <tr>
+                  <td>Style</td>
+                </tr>
+                <tr>
+                  <td>Style</td>
+                </tr>
+                <tr>
+                  <td>Style</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="appoinment" class="col-padtop wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="appoimentbg">
+              <div align="center">
+                <h2>CALL US NOW</h2>
+                <br>
+                <hr>
+                <h2>Phone: (437)989-7880</h2>
+                <h2>Email: <a href="mailto:info.ayasalon.ca">info.ayasalon.ca</a></h2>
+              </div>
+
+  			</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="promotions" class="col-padtop wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="bg-gray">
+              <h2 class="text-center">Promotions and Specials</h2>
+              <div class="col-sm-12 col-lg-12">
+                <div id="myCarousel-1" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <div class="img-right"><img src="{% static 'hairsalon/images/main2.png' %}" alt="First slide" class="img-responsive"></div>
+                      <div class="col-pad4 gbg-white">
+                        <h4>CONTACT US FOR SPECIAL PACKAGES</h4>
+                        <hr>
+                        <p>Discounts will be offered on select package deals. Call us for more information!</p>
+                        <br>
+                        <a href="tel:437-989-7880">CLICK HERE TO CALL</a>
+
+                      </div>
+                    </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="video" class="col-padtop wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-lg-8">
+            <div class="responsive-object">
+              <iframe src="https://www.youtube.com/embed/qkDTbxWiY8A?rel=0&amp;controls=0&amp;showinfo=0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-4 pull-right">
+            <h2>More of Aya's Work</h2>
+            <p>The video shows the work Aya has done to some customers and on mannequins during her college hands on training. Aya showcases her versatility and talent when hairstyling for different hair types and lengths. Feel free to ask Aya for a certain unique hairstyle that you like and she will be able to deliver!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+
+      <hr>
+
+      <br><br><br>
+
+      <div class="contact">
+            <h2>Email: info.ayasalon.ca</p>
+
+
+
+      </div>
+      <div class="clear"></div>
+
+      <div class="contact">
+        <h2>TEL: (437)989-7880 </h2>
+      </div>
+
+      <div class="container">
+        <div>
+          <div class="col-lg-12">
+            <br><br>
+            <h2>Contact Us</h2>
+            <hr>
+          </div>
+
+
+
+          <div id="ContactSuccessMessage">
+            {% if messages %}
+                  {% for message in messages %}
+                    <div class="alert alert-success">
+                      {{message}}
+                    </div>
+                  {% endfor %}
+            {% endif %}
+          </div>
+          <div id="ContactErrorMessage">
+            {% if messages %}
+                  {% for message in messages %}
+                    <div class="alert alert-danger">
+                      {{message}}
+                    </div>
+                  {% endfor %}
+            {% endif %}
+          </div>
+              <form name="ContactForm" id="ContactForm" method="post">
+                {% csrf_token %}
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                <div class="form-group pull-left">
+                  <input type="text" class="form-control required" name="ContactFullName" id="ContactFullName" placeholder="Name"  >
+                </div>
+                <div class="form-group pull-left marright0">
+                  <input type="email" class="form-control required email" name="ContactEmail" id="ContactEmail" placeholder="Email Address" >
+                </div>
+                <div class="form-group pull-left">
+                  <input type="text" class="form-control required number" name="ContactNumber" id="ContactNumber" placeholder="Contact Number"  >
+                </div>
+                <div class="form-group pull-left marright0">
+                  <input type="text" class="form-control required" name="ContactCompanyName" id="ContactCompanyName" placeholder="City">
+                </div>
+                <div class="textarea pull-left">
+                  <textarea placeholder="What would you like to tell us" name="ContactDescription" id="ContactDescription" class="form-control"></textarea>
+                </div>
+                <input type="submit" class="btn btn-primary" value="Submit" >
+              </form>
+              <br><b></b>
+              <hr>
+              <div class="copyright">
+
+                <p>All photos on this website are property of Aya Suleiman. Distrubution of the photos is not allowed.</p>
+                <br>
+                <p>©Aya Suleiman</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+          </div>
+        </div>
+
+    </section>
+
+    <a href="#" class="scrollup">Top</a>
+  </div>
+  </body>
+  <script src="{% static 'hairsalon/js/jquery.1.11.2.js' %}"></script>
+  <script src="{% static 'hairsalon/js/bootstrap.js' %}"></script>
+  <script src="{% static 'hairsalon/js/function.js' %}"></script>
+  <script src="{% static 'hairsalon/js/bootstrap-datepicker.js' %}"></script>
+  <script src="{% static 'hairsalon/js/parallax.js' %}"></script>
+  <script src="{% static 'hairsalon/js/scorll.js' %}"></script>
+  <script src="{% static 'hairsalon/js/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'hairsalon/js/slick.js' %}"></script>
+  <script src="{% static 'hairsalon/js/menu.js' %}"></script>
+  <script src="{% static 'js/ios-timer.js' %}"></script>
+  <script src="{% static 'hairsalon/js/jquery.fencybox.js' %}"></script>
+  <script src="{% static 'hairsalon/js/jquery.portfolio.js' %}"></script>
+  <script src="{% static 'hairsalon/js/jquery.mousewheel-3.0.6.pack.js' %}"></script>
+  <script src="{% static 'hairsalon/js/wow.js' %}"></script>
+  <script src="{% static 'hairsalon/js/jquery.validate.js' %}"></script>
+  <!-- REVOLUTION JS FILES -->
+  <script type="text/javascript" src="{% static 'hairsalon/js/revoluation/jquery.themepunch.tools.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'hairsalon/js/revoluation/jquery.themepunch.revolution.min.js' %}"></script>
+  <!-- SLIDER REVOLUTION 5.0 EXTENSIONS
+  (Load Extensions only on Local File Systems !
+  The following part can be removed on Server for On Demand Loading) -->
+  <script type="text/javascript" src="{% static 'hairsalon/js/revoluation/revolution.extension.layeranimation.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'hairsalon/js/revoluation/revolution.extension.migration.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'hairsalon/js/revoluation/revolution.extension.navigation.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'hairsalon/js/revoluation/revolution.extension.parallax.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'hairsalon/js/revoluation/revolution.extension.slideanims.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'hairsalon/js/revoluation/revoluationfunction.js' %}"></script>
+
+</html>
