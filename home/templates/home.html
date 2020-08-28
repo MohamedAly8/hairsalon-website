@@ -114,20 +114,28 @@
           </div>
           <div class="col-lg-12 filter">
             <ul>
-              <li><a href="#" data-filter=".none" class="active">Press Buttons Bellow</a></li>
               <li><a href="#" data-filter="*">All</a></li>
               <li><a href="#" data-filter=".Wcut">Cutting</a></li>
               <li><a href="#" data-filter=".coloring">Coloring</a></li>
               <li><a href="#" data-filter=".Hspa">Conditioning</a></li>
               <li><a href="#" data-filter=".Bspa">Styling</a></li>
-              <li><a href="#" data-filter=".manucuring">Manicuring</a></li>
+              <li><a href="#" data-filter=".manucuring" class="active">Manicuring</a></li>
             </ul>
           </div>
           <div class="clearfix"></div>
           <div class="portfoliodiv">
             <div class="col-25 .Bspa .Wcut"> <a class="fancybox" href="images/gallery/large/280x375.png" data-fancybox-group="gallery">
               <div class="hover">
-              <img src="{% static 'hairsalon/images/main2.png' %}" alt="Portfolio"/>
+                <style>
+              img {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              }
+              </style>
+
+
+              <img  src="{% static 'hairsalon/images/main2.png' %}" alt="Portfolio"/>
 
               </div>
               </a>
@@ -585,12 +593,6 @@
 
             </div>
           </div> -->
-          <div>
-
-            <p>All photos on this website are property of Aya Suleiman. Distrubution of the photos is not allowed.</p>
-            <br>
-            <p>©Aya Suleiman</p>
-          </div>
 
     </section>
 
